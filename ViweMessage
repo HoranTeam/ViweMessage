@@ -1,6 +1,6 @@
 <?php 
 
-define('BOT_TOKEN','توکن');
+define('BOT_TOKEN','توکن ربات شما');
 define('API_TELEGRAM','https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 $channel = '@ آیدی کانال همراه با';
