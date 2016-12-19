@@ -1,6 +1,3 @@
---Chanel:@HoranTam
---Site:HoranTeam.ir
-
 <?php 
 
 define('BOT_TOKEN','توکن');
@@ -50,7 +47,3 @@ $forward_msg_id = $forward_msg_id2->result->message_id;
 $forward_to_chat_from_channel = API_TELEGRAM.'forwardMessage?chat_id='.$chat_id.'&from_chat_id='.$channel.'&message_id='.$forward_msg_id;
 file_get_contents($forward_to_chat_from_channel);
 }
-
-
---Chanel:@HoranTam
---Site:HoranTeam.ir
